@@ -1,0 +1,27 @@
+header {
+    height: 120px;
+    display: flex;
+    background:no-repeat left/cover url(https://images.unsplash.com/photo-1535905496755-26ae35d0ae54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .header-title{
+    min-width:120px;
+    margin:0px;
+    color:#fff;
+    text-align: center;
+    text-shadow: #000 0 0 .2em;
+    font-size: calc(1em + 2 * (100vw - 120px) / 100);
+
+    }
+    
+
+
+
+ 
+
+   
+
+
+}
+

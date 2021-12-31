@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-title">
+        <h1>Evaluating a news article using the MeaningCloud API</h1>
+      </div>
+    </header>
+    <main>
+      <section>
+          
+        <form class="myForm" onsubmit="return Client.handleSubmit(event)">
+          <input id="urlInput"
+            type="text"
+            name="input"
+            value=""
+            placeholder="Enter a Url here"
+          />
+          <input
+            id="submit"
+            type="submit"
+            name=""
+            value="submit"
+            onclick="return Client.handleSubmit(event)"
+            onsubmit="return Client.handleSubmit(event)">
+        </form>
+      </section>
+
+      <section>
+        <h1 class="result-title">Form Results:</h1>
+        <div id="entryHolder">
+          <div id="polarity"></div>
+          <div id="agreement"></div>
+          <div id="subjectivity"></div>
+          <div id="confidence"></div>
+          <div id="irony"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2021 David Okesanya</p>
+    </footer>
+    <script>
+      // Check that service workers are supported
+      if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
+      }
+    </script>
+  </body>
+</html>
