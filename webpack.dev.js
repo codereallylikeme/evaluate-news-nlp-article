@@ -9,7 +9,7 @@ module.exports = {
     libraryTarget: 'var',
     library: 'Client',
   },
-  mode:'development',
+  mode: 'development',
   module: {
     rules: [
       {
@@ -20,8 +20,8 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     new HtmlWebPackPlugin({
@@ -39,4 +39,3 @@ module.exports = {
     }),
   ],
 };
-
