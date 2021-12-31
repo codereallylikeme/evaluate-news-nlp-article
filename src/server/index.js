@@ -31,7 +31,7 @@ console.log(__dirname);
 
 app.get('/', function (req, res) {
   // res.sendFile('dist/index.html')
-  res.sendFile('dist/index.html');
+  res.sendFile('src/client/views/index.html');
 });
 //get routes
 app.get('/test', function (req, res) {
