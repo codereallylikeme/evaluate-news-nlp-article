@@ -27,9 +27,9 @@ Installation for your development mode
 6. Project Deployment - 
 
 <figure>
-    <img src="/images/ui-api-cloud.png" width='400' height='200'>
+    <img src="/images/ui-api-cloud.png" width='640' height='480' style="text-align:center"
          alt="A url page">
-    <figcaption>A sample of how the user interface(UI) look like.</figcaption>
+    <figcaption>A sample of how the user interface(UI) looks like.</figcaption>
 </figure>
 
 
