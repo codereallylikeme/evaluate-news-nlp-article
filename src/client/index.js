@@ -10,8 +10,6 @@ import './styles/header.scss';
 
 console.log(urlCheck);
 
-alert("I EXIST")
-console.log("CHANGE!!");
 
 export { urlCheck, 
         handleSubmit
